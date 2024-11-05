@@ -19,7 +19,7 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
         </Link>
         <Menu />
       </div>
-      <div className="w-[86%]  md:w-[85%] sm:w-[84%] bg-[#f7f8fa]  overflow-scroll">
+      <div className="w-[86%]  md:w-[85%] sm:w-[84%] bg-[#f7f8fa]  overflow-scroll flex flex-col">
         <Navbar />
         {children}
       </div>
